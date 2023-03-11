@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 25px 20px;
+    color: grey;
+}
+
+header{
+    position: relative;
+}
+
+.grey_Link{
+    padding: 0 5px;
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: -20px;
+}
+
+.grey_Hori_Line{
+    border-bottom: 3px solid grey;
+}
+
+.sub_container{
+    padding: 0 40px;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: 110px;
+    font-weight: 400;
+}
+
+.heading span{
+    color: rgb(109, 188, 191);
+    font-weight: 900;
+}
+
+.grey_highlight_text{
+    color: white;
+    background-color: grey;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    word-spacing: 7px;
+}
+
+.date_edition{
+    padding-block:4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 5px;
+}
+ 
+.date_edition .date span{
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.main-body{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid grey;
+    position: relative;
+}
+
+.main-body h2{
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-block: 10px;
+}
+
+.main-body .sub_container{
+    display: flex;
+}
+
+.left_Text{
+    width: 30%;
+    border-right: 3px solid grey;
+    text-align: left;
+}
+
+.left_Text .paras{
+    padding: 0 10px 20px 0;
+}
+
+.left_Text .paras h4{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+
+
+
+
+
+.right_Text{
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right_Text .part1 .image{
+    width: 460px;
+}
+
+.right_Text .part1 .image img{
+    width: 100%;
+}
+
+.right_Text .part1 p{
+    line-height: 18px;
+    text-align: left;
+    padding: 8px 0 16px;
+}
+
+.right_Text .part2 h3{
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.right_Text .part2 .sub_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.right_Text .part2 .sub_container .image{
+    background-image: url("img/house.jpg");
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+}
+
+.right_Text .part2 .sub_container .text{
+    padding-left: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.right_Text .part2 .sub_container .text .bold{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.right_Text .part2 .sub_container .text .sub_paras{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.right_Text .last-text{
+    padding-block: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.page-number{
+    position:absolute;
+    bottom: -18px;
+    right: 30px;
+    background-color: grey;
+    color: white;
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
